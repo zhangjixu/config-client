@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: config-client  # 应用名称
+
+  cloud:
+    config:
+      name: config-demo # 对应 github 中配置项目名
+      uri: http://localhost:3031
+      label: main # git 分支
+      profile: dev # 环境切分
+
+data:
+  username: NA
+  password: NA
+  url: NA
