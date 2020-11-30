@@ -9,7 +9,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: info # 暴露端点 info health beans env ...
+        include: refresh # 暴露端点 info health beans env ...
 
 spring:
   application:
