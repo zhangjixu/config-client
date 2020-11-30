@@ -450,3 +450,1087 @@
 2020-11-30 14:59:27 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2020-11-30 14:59:27 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
 2020-11-30 14:59:27 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 15:19:51 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:19:53 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d0226b8628bcfa7810ddeecdc7bb96d9687b1fe7, state=null
+2020-11-30 15:19:53 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:19:53 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:19:54 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=865f2987-85c8-3153-a3a5-bf9887c16405
+2020-11-30 15:19:54 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 15:19:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-30 15:19:54 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 15:19:54 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 15:19:54 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 15:19:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 884 ms
+2020-11-30 15:19:55 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:19:55 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 15:19:55 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-30 15:19:55 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 15:19:55 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 5.333 seconds (JVM running for 6.521)
+2020-11-30 15:19:56 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 15:19:56 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 15:19:56 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-30 15:19:56 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 15:19:56 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:19:57 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d0226b8628bcfa7810ddeecdc7bb96d9687b1fe7, state=null
+2020-11-30 15:20:47 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:20:49 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d0226b8628bcfa7810ddeecdc7bb96d9687b1fe7, state=null
+2020-11-30 15:20:49 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:20:49 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:20:50 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=865f2987-85c8-3153-a3a5-bf9887c16405
+2020-11-30 15:20:50 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-11-30 15:20:50 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-11-30 15:20:50 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 15:20:50 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 15:20:50 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 15:20:50 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 786 ms
+2020-11-30 15:20:51 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:20:51 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 15:20:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-11-30 15:20:51 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-30 15:20:51 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.197 seconds (JVM running for 4.696)
+2020-11-30 15:20:51 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 15:20:51 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 15:20:51 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-11-30 15:20:51 [RMI TCP Connection(1)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 15:20:52 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:20:53 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d0226b8628bcfa7810ddeecdc7bb96d9687b1fe7, state=null
+2020-11-30 15:21:48 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:21:51 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d2dfa5f9744a6ae1dbfa8231ac5870a92e1e2c59, state=null
+2020-11-30 15:21:51 [http-nio-8080-exec-4] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:21:51 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:21:51 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - Started application in 3.282 seconds (JVM running for 122.283)
+2020-11-30 15:21:51 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 15:21:51 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 15:21:55 [http-nio-8080-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-11-30 15:22:09 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:22:09 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-11-30 15:22:09 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-11-30 15:22:13 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:22:13 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 15:22:13 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 15:32:17 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2020-11-30 15:32:18 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:32:20 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d2dfa5f9744a6ae1dbfa8231ac5870a92e1e2c59, state=null
+2020-11-30 15:32:20 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:32:20 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:32:21 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:32:21 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:32:21 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e26233c0-e143-34f4-8b1e-0ff604509cfc
+2020-11-30 15:32:21 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-11-30 15:32:21 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-11-30 15:32:21 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-11-30 15:32:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:32:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:32:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:32:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:32:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:32:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:32:22 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-11-30 15:32:22 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-11-30 15:32:22 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 15:32:22 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 15:32:22 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 15:32:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1408 ms
+2020-11-30 15:32:22 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:32:23 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-30 15:32:23 [main] INFO  o.s.c.s.f.FunctionConfiguration$FunctionBindingRegistrar - Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-11-30 15:32:23 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 15:32:23 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusInput' has 1 subscriber(s).
+2020-11-30 15:32:23 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel errorChannel
+2020-11-30 15:32:23 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel nullChannel
+2020-11-30 15:32:23 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusOutput
+2020-11-30 15:32:23 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusInput
+2020-11-30 15:32:23 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler errorLogger
+2020-11-30 15:32:23 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@3c81cd82
+2020-11-30 15:32:23 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-30 15:32:23 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 1 subscriber(s).
+2020-11-30 15:32:23 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-11-30 15:32:23 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Creating binder: rabbit
+2020-11-30 15:32:23 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:32:25 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d2dfa5f9744a6ae1dbfa8231ac5870a92e1e2c59, state=null
+2020-11-30 15:32:25 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:32:26 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Caching the binder: rabbit
+2020-11-30 15:32:26 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:32:26 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:32:31 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusOutput' has 1 subscriber(s).
+2020-11-30 15:32:31 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:32:31 [main] INFO  o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner - declaring queue for inbound: springCloudBus.anonymous.9Y880cidQLCca7zjithoJA, bound to: springCloudBus
+2020-11-30 15:32:31 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:32:36 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:32:36 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:32:41 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:32:41 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:32:46 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:32:46 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.9Y880cidQLCca7zjithoJA.errors' has 1 subscriber(s).
+2020-11-30 15:32:46 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.9Y880cidQLCca7zjithoJA.errors' has 2 subscriber(s).
+2020-11-30 15:32:46 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:32:51 [main] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.util.concurrent.TimeoutException
+2020-11-30 15:32:51 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:32:51 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:32:56 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:32:56 [main] INFO  o.s.i.amqp.inbound.AmqpInboundChannelAdapter - started bean 'inbound.springCloudBus.anonymous.9Y880cidQLCca7zjithoJA'
+2020-11-30 15:32:56 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-11-30 15:32:56 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-30 15:32:56 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBus.anonymous.9Y880cidQLCca7zjithoJA.errors
+2020-11-30 15:32:56 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 39.055 seconds (JVM running for 39.636)
+2020-11-30 15:32:56 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:32:56 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 15:32:56 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 15:32:56 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-11-30 15:33:01 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@4d69d288: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:33:01 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:01 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:01 [RMI TCP Connection(5)-127.0.0.1] WARN  o.s.boot.actuate.amqp.RabbitHealthIndicator - Rabbit health check failed
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:73)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2089)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.getVersion(RabbitHealthIndicator.java:49)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.doHealthCheck(RabbitHealthIndicator.java:44)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor122.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77)
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:326)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1139)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487)
+	... 50 common frames omitted
+2020-11-30 15:33:05 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2020-11-30 15:33:05 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:33:06 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:06 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:07 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d2dfa5f9744a6ae1dbfa8231ac5870a92e1e2c59, state=null
+2020-11-30 15:33:07 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:33:07 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:33:07 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:33:08 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:33:08 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e26233c0-e143-34f4-8b1e-0ff604509cfc
+2020-11-30 15:33:08 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-11-30 15:33:08 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-11-30 15:33:08 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-11-30 15:33:08 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:33:08 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:33:08 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:33:08 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:33:08 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:33:08 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:33:08 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 15:33:08 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-30 15:33:08 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 15:33:08 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 15:33:08 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 15:33:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1194 ms
+2020-11-30 15:33:09 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:33:09 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-30 15:33:09 [main] INFO  o.s.c.s.f.FunctionConfiguration$FunctionBindingRegistrar - Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-11-30 15:33:09 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 15:33:10 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusInput' has 1 subscriber(s).
+2020-11-30 15:33:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel errorChannel
+2020-11-30 15:33:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusOutput
+2020-11-30 15:33:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel nullChannel
+2020-11-30 15:33:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusInput
+2020-11-30 15:33:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@111c229c
+2020-11-30 15:33:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler errorLogger
+2020-11-30 15:33:10 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-30 15:33:10 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 1 subscriber(s).
+2020-11-30 15:33:10 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-11-30 15:33:10 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Creating binder: rabbit
+2020-11-30 15:33:10 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:33:11 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:11 [RMI TCP Connection(5)-127.0.0.1] WARN  o.s.boot.actuate.amqp.RabbitHealthIndicator - Rabbit health check failed
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:73)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2089)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.getVersion(RabbitHealthIndicator.java:49)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.doHealthCheck(RabbitHealthIndicator.java:44)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor122.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77)
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:326)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1139)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487)
+	... 52 common frames omitted
+2020-11-30 15:33:12 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d2dfa5f9744a6ae1dbfa8231ac5870a92e1e2c59, state=null
+2020-11-30 15:33:12 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:33:12 [RMI TCP Connection(5)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 15:33:12 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5679eebe: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:33:12 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-3] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:12 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Caching the binder: rabbit
+2020-11-30 15:33:12 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:33:12 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:12 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:33:14 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d2dfa5f9744a6ae1dbfa8231ac5870a92e1e2c59, state=null
+2020-11-30 15:33:17 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:17 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusOutput' has 1 subscriber(s).
+2020-11-30 15:33:17 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:33:17 [main] INFO  o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner - declaring queue for inbound: springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ, bound to: springCloudBus
+2020-11-30 15:33:17 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:22 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-3] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@65ab70c7: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:33:22 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-4] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:22 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:22 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:27 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:27 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:27 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:32 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-4] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@7ae9caf5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:33:32 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-5] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:32 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:32 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ.errors' has 1 subscriber(s).
+2020-11-30 15:33:32 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ.errors' has 2 subscriber(s).
+2020-11-30 15:33:32 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:37 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:37 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:37 [main] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.util.concurrent.TimeoutException
+2020-11-30 15:33:37 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:42 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-5] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@37b7e4c5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:33:42 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-6] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:42 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:42 [main] INFO  o.s.i.amqp.inbound.AmqpInboundChannelAdapter - started bean 'inbound.springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ'
+2020-11-30 15:33:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-30 15:33:42 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 15:33:42 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ.errors
+2020-11-30 15:33:42 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 37.554 seconds (JVM running for 38.034)
+2020-11-30 15:33:42 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:42 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 15:33:42 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 15:33:42 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-30 15:33:47 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:47 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@437281c5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:33:47 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:47 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:47 [RMI TCP Connection(5)-127.0.0.1] WARN  o.s.boot.actuate.amqp.RabbitHealthIndicator - Rabbit health check failed
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:73)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2089)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.getVersion(RabbitHealthIndicator.java:49)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.doHealthCheck(RabbitHealthIndicator.java:44)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor122.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77)
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:326)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1139)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487)
+	... 50 common frames omitted
+2020-11-30 15:33:51 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 15:33:52 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-6] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@2117f9b5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:33:52 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-7] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:52 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:52 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:57 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:33:57 [RMI TCP Connection(5)-127.0.0.1] WARN  o.s.boot.actuate.amqp.RabbitHealthIndicator - Rabbit health check failed
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:73)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2089)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.getVersion(RabbitHealthIndicator.java:49)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.doHealthCheck(RabbitHealthIndicator.java:44)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor122.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77)
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:326)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1139)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487)
+	... 52 common frames omitted
+2020-11-30 15:33:57 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:33:57 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@1fc87a5b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:33:57 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-3] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:33:58 [http-nio-8080-exec-5] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:34:02 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-7] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@2a02fcc8: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:02 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-8] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:02 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:03 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:34:05 [http-nio-8080-exec-5] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:34:05 [http-nio-8080-exec-5] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:34:05 [http-nio-8080-exec-5] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:34:05 [http-nio-8080-exec-5] INFO  org.springframework.boot.SpringApplication - Started application in 6.471 seconds (JVM running for 60.922)
+2020-11-30 15:34:05 [http-nio-8080-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 15:34:05 [http-nio-8080-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 15:34:07 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:07 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-3] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5d3e2a45: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:07 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-4] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:12 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-8] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@40d29e2d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:12 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-9] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:17 [http-nio-8080-exec-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-11-30 15:34:17 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:17 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-4] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@11ee68f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:17 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-5] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:22 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@35259b1e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:22 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-10] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:22 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:27 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:28 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-5] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@26857bcc: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:28 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-6] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:32 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-10] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@6838a5bf: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:32 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-11] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:33 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:37 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:38 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-6] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@7521ccbf: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:38 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-7] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:42 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-11] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@d3cb66: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:42 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-12] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:43 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:47 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:48 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-7] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@d3cb66: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:48 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-8] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:53 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-12] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5a6e8247: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:53 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-13] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:34:53 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:58 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:34:58 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-8] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@31ec8157: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:34:58 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-9] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:35:03 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-13] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@7b85bd91: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:35:03 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-14] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:35:08 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:35:08 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-9] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5a707d71: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:35:08 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-10] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:35:13 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-14] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@3de4ef97: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:35:13 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-15] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:35:13 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:35:18 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:35:18 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-10] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@11e951c3: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:35:18 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-11] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:35:23 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-15] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@5660ae50: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:35:23 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-16] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:35:23 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:35:28 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:35:28 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-11] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@6f7558a0: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:35:28 [springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ-12] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:35:33 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-16] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@6c2eadb1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:35:33 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-17] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:35:33 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.i.amqp.inbound.AmqpInboundChannelAdapter - stopped bean 'inbound.springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ'
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'config-client-1.springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ.errors' has 1 subscriber(s).
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'config-client-1.springCloudBus.anonymous.A4p_3OC6RgeQ_JJS_vaYzQ.errors' has 0 subscriber(s).
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 0 subscriber(s).
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: bean 'errorChannel'
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: bean 'springCloudBusOutput'
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: nullChannel
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: bean 'springCloudBusInput'
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@111c229c
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-11-30 15:35:35 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-11-30 15:35:38 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:35:43 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-17] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@41c720bc: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:35:43 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-18] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:35:48 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:35:53 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-18] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@726181aa: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:35:53 [springCloudBus.anonymous.9Y880cidQLCca7zjithoJA-19] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:35:58 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2020-11-30 15:35:58 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2020-11-30 15:35:58 [SpringContextShutdownHook] INFO  o.s.i.amqp.inbound.AmqpInboundChannelAdapter - stopped bean 'inbound.springCloudBus.anonymous.9Y880cidQLCca7zjithoJA'
+2020-11-30 15:35:58 [SpringContextShutdownHook] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'config-client-1.springCloudBus.anonymous.9Y880cidQLCca7zjithoJA.errors' has 1 subscriber(s).
+2020-11-30 15:35:58 [SpringContextShutdownHook] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'config-client-1.springCloudBus.anonymous.9Y880cidQLCca7zjithoJA.errors' has 0 subscriber(s).
+2020-11-30 15:35:58 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-30 15:35:58 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 0 subscriber(s).
+2020-11-30 15:35:58 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-11-30 15:35:58 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-11-30 15:36:46 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2020-11-30 15:36:46 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:36:47 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:36:47 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:36:47 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:36:48 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:36:48 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:36:48 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e26233c0-e143-34f4-8b1e-0ff604509cfc
+2020-11-30 15:36:48 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-11-30 15:36:48 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-11-30 15:36:48 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-11-30 15:36:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:36:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:36:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:36:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:36:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:36:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:36:48 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 15:36:48 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-30 15:36:48 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 15:36:48 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 15:36:49 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 15:36:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1250 ms
+2020-11-30 15:36:49 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:36:50 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-30 15:36:50 [main] INFO  o.s.c.s.f.FunctionConfiguration$FunctionBindingRegistrar - Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-11-30 15:36:50 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 15:36:50 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusInput' has 1 subscriber(s).
+2020-11-30 15:36:50 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusOutput
+2020-11-30 15:36:50 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel errorChannel
+2020-11-30 15:36:50 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusInput
+2020-11-30 15:36:50 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel nullChannel
+2020-11-30 15:36:50 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler errorLogger
+2020-11-30 15:36:50 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@6af65f29
+2020-11-30 15:36:50 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-30 15:36:50 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 1 subscriber(s).
+2020-11-30 15:36:50 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-11-30 15:36:50 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Creating binder: rabbit
+2020-11-30 15:36:50 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:36:52 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:36:52 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:36:52 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Caching the binder: rabbit
+2020-11-30 15:36:52 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:36:52 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:36:57 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:36:57 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusOutput' has 1 subscriber(s).
+2020-11-30 15:36:57 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:36:57 [main] INFO  o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner - declaring queue for inbound: springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w, bound to: springCloudBus
+2020-11-30 15:36:57 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:02 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:02 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:07 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:07 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:09 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2020-11-30 15:37:09 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:37:11 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:37:11 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:37:11 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:37:12 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:37:12 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:37:12 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e26233c0-e143-34f4-8b1e-0ff604509cfc
+2020-11-30 15:37:12 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-11-30 15:37:12 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-11-30 15:37:12 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-11-30 15:37:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:37:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:37:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:37:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:37:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:37:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:37:12 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:12 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w.errors' has 1 subscriber(s).
+2020-11-30 15:37:12 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w.errors' has 2 subscriber(s).
+2020-11-30 15:37:12 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:12 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-11-30 15:37:12 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-11-30 15:37:12 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 15:37:12 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 15:37:12 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 15:37:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1260 ms
+2020-11-30 15:37:13 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:37:14 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-30 15:37:14 [main] INFO  o.s.c.s.f.FunctionConfiguration$FunctionBindingRegistrar - Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-11-30 15:37:14 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 15:37:14 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusInput' has 1 subscriber(s).
+2020-11-30 15:37:14 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel errorChannel
+2020-11-30 15:37:14 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel nullChannel
+2020-11-30 15:37:14 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusOutput
+2020-11-30 15:37:14 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusInput
+2020-11-30 15:37:14 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler errorLogger
+2020-11-30 15:37:14 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@3c81cd82
+2020-11-30 15:37:14 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-30 15:37:14 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 1 subscriber(s).
+2020-11-30 15:37:14 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-11-30 15:37:14 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Creating binder: rabbit
+2020-11-30 15:37:14 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:37:16 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:37:16 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:37:16 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Caching the binder: rabbit
+2020-11-30 15:37:16 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:37:16 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:17 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:17 [main] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.util.concurrent.TimeoutException
+2020-11-30 15:37:17 [springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:21 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:21 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusOutput' has 1 subscriber(s).
+2020-11-30 15:37:21 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:37:21 [main] INFO  o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner - declaring queue for inbound: springCloudBus.anonymous.hu5MkPZmTu2Lz0R-KyQqIA, bound to: springCloudBus
+2020-11-30 15:37:21 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:22 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:22 [main] INFO  o.s.i.amqp.inbound.AmqpInboundChannelAdapter - started bean 'inbound.springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w'
+2020-11-30 15:37:22 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-30 15:37:22 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 15:37:22 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w.errors
+2020-11-30 15:37:22 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 37.704 seconds (JVM running for 38.944)
+2020-11-30 15:37:23 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:23 [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 15:37:23 [RMI TCP Connection(8)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 15:37:23 [RMI TCP Connection(8)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-30 15:37:24 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 15:37:26 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:26 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:27 [springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w-1] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@6744707b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:37:28 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:28 [springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w-2] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:28 [RMI TCP Connection(9)-127.0.0.1] WARN  o.s.boot.actuate.amqp.RabbitHealthIndicator - Rabbit health check failed
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:73)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2089)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.getVersion(RabbitHealthIndicator.java:49)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.doHealthCheck(RabbitHealthIndicator.java:44)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor123.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77)
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:326)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1139)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487)
+	... 50 common frames omitted
+2020-11-30 15:37:31 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:31 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:33 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:33 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:36 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:36 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.hu5MkPZmTu2Lz0R-KyQqIA.errors' has 1 subscriber(s).
+2020-11-30 15:37:36 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.hu5MkPZmTu2Lz0R-KyQqIA.errors' has 2 subscriber(s).
+2020-11-30 15:37:36 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:38 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:38 [RMI TCP Connection(9)-127.0.0.1] WARN  o.s.boot.actuate.amqp.RabbitHealthIndicator - Rabbit health check failed
+org.springframework.amqp.AmqpTimeoutException: java.util.concurrent.TimeoutException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:73)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2089)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.getVersion(RabbitHealthIndicator.java:49)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.doHealthCheck(RabbitHealthIndicator.java:44)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor123.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException: null
+	at com.rabbitmq.utility.BlockingCell.get(BlockingCell.java:77)
+	at com.rabbitmq.utility.BlockingCell.uninterruptibleGet(BlockingCell.java:120)
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36)
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:502)
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:326)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1139)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487)
+	... 52 common frames omitted
+2020-11-30 15:37:38 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:37:38 [springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w-2] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Restarting Consumer@7b2a6c12: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-11-30 15:37:38 [springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w-3] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:39 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:37:41 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:41 [main] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.util.concurrent.TimeoutException
+2020-11-30 15:37:41 [springCloudBus.anonymous.hu5MkPZmTu2Lz0R-KyQqIA-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:43 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:46 [AMQP Connection 10.244.245.234:15672] WARN  com.rabbitmq.client.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Socket closed)
+2020-11-30 15:37:46 [main] INFO  o.s.i.amqp.inbound.AmqpInboundChannelAdapter - started bean 'inbound.springCloudBus.anonymous.hu5MkPZmTu2Lz0R-KyQqIA'
+2020-11-30 15:37:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-11-30 15:37:46 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-30 15:37:46 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBus.anonymous.hu5MkPZmTu2Lz0R-KyQqIA.errors
+2020-11-30 15:37:46 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 37.872 seconds (JVM running for 38.419)
+2020-11-30 15:37:46 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:15672]
+2020-11-30 15:37:46 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 15:37:46 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 15:37:46 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.i.amqp.inbound.AmqpInboundChannelAdapter - stopped bean 'inbound.springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w'
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'config-client-1.springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w.errors' has 1 subscriber(s).
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'config-client-1.springCloudBus.anonymous.xdn6eoz-Qiq4N5XugN4u2w.errors' has 0 subscriber(s).
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 0 subscriber(s).
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: bean 'springCloudBusOutput'
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: bean 'errorChannel'
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: bean 'springCloudBusInput'
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: nullChannel
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@6af65f29
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 15:37:47 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 15:37:50 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2020-11-30 15:37:50 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2020-11-30 15:37:50 [SpringContextShutdownHook] INFO  o.s.i.amqp.inbound.AmqpInboundChannelAdapter - stopped bean 'inbound.springCloudBus.anonymous.hu5MkPZmTu2Lz0R-KyQqIA'
+2020-11-30 15:37:50 [SpringContextShutdownHook] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'config-client-1.springCloudBus.anonymous.hu5MkPZmTu2Lz0R-KyQqIA.errors' has 1 subscriber(s).
+2020-11-30 15:37:50 [SpringContextShutdownHook] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'config-client-1.springCloudBus.anonymous.hu5MkPZmTu2Lz0R-KyQqIA.errors' has 0 subscriber(s).
+2020-11-30 15:37:50 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-30 15:37:50 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 0 subscriber(s).
+2020-11-30 15:37:50 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-11-30 15:37:50 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-11-30 15:38:29 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2020-11-30 15:38:30 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:38:32 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:38:32 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:38:32 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:38:32 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:38:32 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:38:32 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e26233c0-e143-34f4-8b1e-0ff604509cfc
+2020-11-30 15:38:32 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-11-30 15:38:32 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-11-30 15:38:32 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-11-30 15:38:33 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:38:33 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:38:33 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:38:33 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:38:33 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:38:33 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:38:33 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-11-30 15:38:33 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-11-30 15:38:33 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 15:38:33 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 15:38:33 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 15:38:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1361 ms
+2020-11-30 15:38:33 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:38:34 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-30 15:38:34 [main] INFO  o.s.c.s.f.FunctionConfiguration$FunctionBindingRegistrar - Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-11-30 15:38:34 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 15:38:34 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusInput' has 1 subscriber(s).
+2020-11-30 15:38:34 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel errorChannel
+2020-11-30 15:38:34 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusOutput
+2020-11-30 15:38:34 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel nullChannel
+2020-11-30 15:38:34 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusInput
+2020-11-30 15:38:34 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@111c229c
+2020-11-30 15:38:34 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler errorLogger
+2020-11-30 15:38:34 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-30 15:38:34 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 1 subscriber(s).
+2020-11-30 15:38:34 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-11-30 15:38:34 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Creating binder: rabbit
+2020-11-30 15:38:34 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:38:36 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:38:36 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:38:36 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Caching the binder: rabbit
+2020-11-30 15:38:36 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:38:36 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:5672]
+2020-11-30 15:38:36 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#bf75b5c:0/SimpleConnection@aa1bb14 [delegate=amqp://admin@10.244.245.234:5672/, localPort= 61377]
+2020-11-30 15:38:36 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusOutput' has 1 subscriber(s).
+2020-11-30 15:38:36 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:38:36 [main] INFO  o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner - declaring queue for inbound: springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA, bound to: springCloudBus
+2020-11-30 15:38:37 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA.errors' has 1 subscriber(s).
+2020-11-30 15:38:37 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA.errors' has 2 subscriber(s).
+2020-11-30 15:38:37 [main] INFO  o.s.i.amqp.inbound.AmqpInboundChannelAdapter - started bean 'inbound.springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA'
+2020-11-30 15:38:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-11-30 15:38:37 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-30 15:38:37 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA.errors
+2020-11-30 15:38:37 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 8.309 seconds (JVM running for 9.103)
+2020-11-30 15:38:37 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 15:38:37 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 15:38:37 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-30 15:38:37 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 15:38:37 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:38:40 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:39:05 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.6.Final
+2020-11-30 15:39:06 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:39:08 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:39:08 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:39:08 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:39:08 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:39:08 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-11-30 15:39:09 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e26233c0-e143-34f4-8b1e-0ff604509cfc
+2020-11-30 15:39:09 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-11-30 15:39:09 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-11-30 15:39:09 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-11-30 15:39:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:39:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:39:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:39:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:39:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:39:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 15:39:09 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 15:39:09 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-30 15:39:09 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 15:39:09 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 15:39:09 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 15:39:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1474 ms
+2020-11-30 15:39:09 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 15:39:10 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-30 15:39:10 [main] INFO  o.s.c.s.f.FunctionConfiguration$FunctionBindingRegistrar - Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-11-30 15:39:10 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 15:39:10 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusInput' has 1 subscriber(s).
+2020-11-30 15:39:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusInput
+2020-11-30 15:39:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel nullChannel
+2020-11-30 15:39:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel errorChannel
+2020-11-30 15:39:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusOutput
+2020-11-30 15:39:10 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@49cb3881
+2020-11-30 15:39:11 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler errorLogger
+2020-11-30 15:39:11 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-30 15:39:11 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 1 subscriber(s).
+2020-11-30 15:39:11 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-11-30 15:39:11 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Creating binder: rabbit
+2020-11-30 15:39:11 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:39:12 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:39:12 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:39:12 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Caching the binder: rabbit
+2020-11-30 15:39:12 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:39:12 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:5672]
+2020-11-30 15:39:13 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#16da476c:0/SimpleConnection@7faa0680 [delegate=amqp://admin@10.244.245.234:5672/, localPort= 61426]
+2020-11-30 15:39:13 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusOutput' has 1 subscriber(s).
+2020-11-30 15:39:13 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-30 15:39:13 [main] INFO  o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner - declaring queue for inbound: springCloudBus.anonymous.s2Q8_zU5SAip2cXRMdkorw, bound to: springCloudBus
+2020-11-30 15:39:13 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.s2Q8_zU5SAip2cXRMdkorw.errors' has 1 subscriber(s).
+2020-11-30 15:39:13 [main] INFO  o.s.cloud.stream.binder.BinderErrorChannel - Channel 'springCloudBus.anonymous.s2Q8_zU5SAip2cXRMdkorw.errors' has 2 subscriber(s).
+2020-11-30 15:39:13 [main] INFO  o.s.i.amqp.inbound.AmqpInboundChannelAdapter - started bean 'inbound.springCloudBus.anonymous.s2Q8_zU5SAip2cXRMdkorw'
+2020-11-30 15:39:13 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-30 15:39:13 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 15:39:13 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBus.anonymous.s2Q8_zU5SAip2cXRMdkorw.errors
+2020-11-30 15:39:13 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 7.981 seconds (JVM running for 8.627)
+2020-11-30 15:39:13 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 15:39:13 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 15:39:13 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-30 15:39:13 [RMI TCP Connection(1)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 15:39:13 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:39:16 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=cabf1d9f3a0dd209a363e64bc0f695e9e6953cef, state=null
+2020-11-30 15:40:11 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:40:16 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=c7890e9f9911e9213074d5e5aaaef0217a76c6f7, state=null
+2020-11-30 15:40:16 [http-nio-8080-exec-4] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:40:16 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:40:16 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - Started application in 5.22 seconds (JVM running for 72.222)
+2020-11-30 15:40:17 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 15:40:17 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 15:40:20 [http-nio-8080-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-11-30 15:41:12 [http-nio-8080-exec-9] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:5672]
+2020-11-30 15:41:12 [http-nio-8080-exec-9] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory.publisher#1f3a0a79:0/SimpleConnection@744a8596 [delegate=amqp://admin@10.244.245.234:5672/, localPort= 61591]
+2020-11-30 15:41:12 [http-nio-8080-exec-9] INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (springCloudBus.anonymous.s2Q8_zU5SAip2cXRMdkorw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-11-30 15:41:12 [http-nio-8080-exec-9] INFO  o.springframework.cloud.bus.event.RefreshListener - Received remote refresh request.
+2020-11-30 15:41:12 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.springframework.cloud.bus.event.RefreshListener - Received remote refresh request.
+2020-11-30 15:41:12 [http-nio-8080-exec-9] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:41:12 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:41:13 [http-nio-8080-exec-9] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=c7890e9f9911e9213074d5e5aaaef0217a76c6f7, state=null
+2020-11-30 15:41:13 [http-nio-8080-exec-9] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:41:13 [http-nio-8080-exec-9] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:41:13 [http-nio-8080-exec-9] INFO  org.springframework.boot.SpringApplication - Started application in 1.478 seconds (JVM running for 128.981)
+2020-11-30 15:41:13 [http-nio-8080-exec-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-11-30 15:41:13 [http-nio-8080-exec-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-11-30 15:41:13 [http-nio-8080-exec-9] INFO  o.springframework.cloud.bus.event.RefreshListener - Keys refreshed []
+2020-11-30 15:41:14 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=c7890e9f9911e9213074d5e5aaaef0217a76c6f7, state=null
+2020-11-30 15:41:14 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:41:14 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:41:14 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  org.springframework.boot.SpringApplication - Started application in 2.425 seconds (JVM running for 166.599)
+2020-11-30 15:41:14 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 15:41:14 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 15:41:14 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.springframework.cloud.bus.event.RefreshListener - Keys refreshed [config.client.version, spring.datasource.url, server.port]
+2020-11-30 15:41:14 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.234:5672]
+2020-11-30 15:41:14 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory.publisher#252b89c8:0/SimpleConnection@34b625b3 [delegate=amqp://admin@10.244.245.234:5672/, localPort= 61602]
+2020-11-30 15:41:14 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-11-30 15:41:18 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2020-11-30 15:41:20 [http-nio-8081-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-11-30 15:42:02 [http-nio-8080-exec-3] INFO  o.springframework.cloud.bus.event.RefreshListener - Received remote refresh request.
+2020-11-30 15:42:02 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.springframework.cloud.bus.event.RefreshListener - Received remote refresh request.
+2020-11-30 15:42:02 [http-nio-8080-exec-3] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:42:02 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 15:42:08 [http-nio-8080-exec-3] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d39c70c2d65c3a9fd483fa0ae958d4bb924b3481, state=null
+2020-11-30 15:42:08 [http-nio-8080-exec-3] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:42:08 [http-nio-8080-exec-3] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:42:08 [http-nio-8080-exec-3] INFO  org.springframework.boot.SpringApplication - Started application in 5.875 seconds (JVM running for 183.711)
+2020-11-30 15:42:08 [http-nio-8080-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2020-11-30 15:42:08 [http-nio-8080-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2020-11-30 15:42:08 [http-nio-8080-exec-3] INFO  o.springframework.cloud.bus.event.RefreshListener - Keys refreshed [config.client.version, spring.datasource.url]
+2020-11-30 15:42:09 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d39c70c2d65c3a9fd483fa0ae958d4bb924b3481, state=null
+2020-11-30 15:42:09 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 15:42:09 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 15:42:09 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  org.springframework.boot.SpringApplication - Started application in 7.096 seconds (JVM running for 221.565)
+2020-11-30 15:42:09 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-11-30 15:42:09 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-11-30 15:42:09 [springCloudBus.anonymous.LnDfQWIbSC-yCll6408GGA-1] INFO  o.springframework.cloud.bus.event.RefreshListener - Keys refreshed [config.client.version, spring.datasource.url]
+2020-11-30 15:42:11 [http-nio-8081-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2020-11-30 15:42:13 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+2020-11-30 15:42:29 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.

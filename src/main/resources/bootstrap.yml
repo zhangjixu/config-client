@@ -9,7 +9,9 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh # 暴露端点 info health beans env ...
+        # 配合消息中间件(RabbitMQ, kafka等)使用
+        # 批量刷新 只要一个 client 通过 actuator/bus-refresh 来实现刷新本服务的同时，将刷新动作推送至消息中间件，通知其它连接了消息中间件的客户端进行自动刷新操作。
+        include: bus-refresh # 暴露端点 info health beans env ...
 
 spring:
   application:
@@ -21,3 +23,9 @@ spring:
       uri: http://localhost:3031
       label: main # git 分支
       profile: dev # 环境切分
+
+  rabbitmq:
+    host: 10.244.245.234
+    port: 5672
+    username: admin
+    password: admin
