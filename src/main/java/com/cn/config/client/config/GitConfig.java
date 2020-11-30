@@ -2,6 +2,7 @@ package com.cn.config.client.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -12,13 +13,14 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @Data
+@RefreshScope
 public class GitConfig {
 
-    @Value("${data.username}")
+    @Value("${spring.datasource.username}")
     private String userName;
-    @Value("${data.password}")
+    @Value("${spring.datasource.password}")
     private String password;
-    @Value("${data.url}")
+    @Value("${spring.datasource.url}")
     private String url;
 
 }

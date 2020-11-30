@@ -1,0 +1,313 @@
+2020-11-27 11:12:31 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 11:12:31 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7eee7811-2a86-3eef-8bf8-0db796172d6e
+2020-11-27 11:12:31 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 11:12:31 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 11:12:31 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 11:12:32 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 11:12:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 884 ms
+2020-11-27 11:12:32 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 11:12:32 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-27 11:12:32 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 11:12:32 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.231 seconds (JVM running for 4.888)
+2020-11-27 11:12:33 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 11:12:33 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 11:12:33 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-27 11:12:33 [RMI TCP Connection(1)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 11:12:33 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 11:12:34 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=3dbe2b438c22c5e2ff4a89623884207ca957b643, state=null
+2020-11-27 11:12:56 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 11:12:56 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 11:12:56 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 11:13:13 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 11:13:13 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=bff71561-f095-3b47-a19b-9765ed2c151e
+2020-11-27 11:13:14 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 11:13:14 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 11:13:14 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 11:13:14 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 11:13:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 866 ms
+2020-11-27 11:13:14 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 11:13:14 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-27 11:13:15 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 11:13:15 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 3.899 seconds (JVM running for 4.563)
+2020-11-27 11:13:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 11:13:15 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 11:13:15 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-27 11:13:15 [RMI TCP Connection(1)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 11:13:15 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 11:13:16 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=3dbe2b438c22c5e2ff4a89623884207ca957b643, state=null
+2020-11-27 11:13:37 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 11:13:37 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 11:13:37 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 11:13:57 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 11:13:58 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=bff71561-f095-3b47-a19b-9765ed2c151e
+2020-11-27 11:13:58 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 11:13:58 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 11:13:58 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 11:13:58 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 11:13:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 892 ms
+2020-11-27 11:13:58 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 11:13:59 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-27 11:13:59 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 11:13:59 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 3.652 seconds (JVM running for 4.101)
+2020-11-27 11:13:59 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 11:13:59 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 11:13:59 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-11-27 11:13:59 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 11:13:59 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 11:14:00 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=3dbe2b438c22c5e2ff4a89623884207ca957b643, state=null
+2020-11-27 11:14:25 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 11:14:25 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 11:14:25 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 11:22:09 [main] INFO  com.cn.config.client.MysqlTest - No active profile set, falling back to default profiles: default
+2020-11-27 11:22:10 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=72b01336-106d-3066-a692-4467c4207f5f
+2020-11-27 11:22:11 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 11:22:11 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-27 11:22:12 [main] INFO  com.cn.config.client.MysqlTest - Started MysqlTest in 4.245 seconds (JVM running for 5.101)
+2020-11-27 11:22:12 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 11:22:12 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 11:22:12 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 11:22:12 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 11:27:29 [main] INFO  com.cn.config.client.MysqlTest - No active profile set, falling back to default profiles: default
+2020-11-27 11:28:39 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 11:28:40 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=02b87bb8-0513-3e2d-bcfc-d10f91bfe78d
+2020-11-27 11:28:40 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 11:28:40 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 11:28:40 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 11:28:40 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 11:28:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 967 ms
+2020-11-27 11:28:41 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 11:28:41 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-27 11:28:41 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 11:28:41 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.633 seconds (JVM running for 5.629)
+2020-11-27 11:28:41 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 11:28:41 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 11:28:41 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-27 11:28:42 [RMI TCP Connection(3)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 11:28:42 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 11:28:43 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=3dbe2b438c22c5e2ff4a89623884207ca957b643, state=null
+2020-11-27 11:29:59 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 11:29:59 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 11:29:59 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 13:14:23 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 13:14:24 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=02b87bb8-0513-3e2d-bcfc-d10f91bfe78d
+2020-11-27 13:14:24 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 13:14:24 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 13:14:24 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 13:14:24 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 13:14:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 749 ms
+2020-11-27 13:14:24 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 13:14:25 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-27 13:14:25 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 13:14:25 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 5.301 seconds (JVM running for 5.739)
+2020-11-27 13:14:25 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 13:14:25 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 13:14:25 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-27 13:14:25 [RMI TCP Connection(1)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 13:14:25 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 13:14:27 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=6af02820c93df42228c78d9242843cccaa584642, state=null
+2020-11-27 13:25:59 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 13:25:59 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 13:25:59 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 13:27:05 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 13:27:05 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=02b87bb8-0513-3e2d-bcfc-d10f91bfe78d
+2020-11-27 13:27:05 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 13:27:05 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 13:27:05 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 13:27:06 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 13:27:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 740 ms
+2020-11-27 13:27:06 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 13:27:06 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-27 13:27:06 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 13:27:06 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 3.631 seconds (JVM running for 4.388)
+2020-11-27 13:27:07 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 13:27:07 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 13:27:07 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-27 13:27:07 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 13:27:07 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 13:27:10 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=6af02820c93df42228c78d9242843cccaa584642, state=null
+2020-11-27 14:02:13 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 14:02:13 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 14:02:13 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 14:08:19 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 14:08:20 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=02b87bb8-0513-3e2d-bcfc-d10f91bfe78d
+2020-11-27 14:08:20 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 14:08:20 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 14:08:20 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 14:08:20 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 14:08:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 860 ms
+2020-11-27 14:08:20 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 14:08:21 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-27 14:08:21 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 14:08:21 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 5.341 seconds (JVM running for 6.244)
+2020-11-27 14:08:21 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 14:08:21 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 14:08:21 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-11-27 14:08:21 [RMI TCP Connection(3)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 14:08:22 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 14:08:23 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=0f11114e0a72a0fe06686fd7c9c0d8559e934859, state=null
+2020-11-27 14:14:02 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 14:14:02 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 14:14:02 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 14:15:17 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 14:15:17 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'jdbcTemplate' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration; factoryMethodName=jdbcTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class]] for bean 'jdbcTemplate': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=jdbcTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/cn/config/client/config/DruidConfig.class]] bound.
+2020-11-27 14:15:17 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-27 14:15:17 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'jdbcTemplate', defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/cn/config/client/config/DruidConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2020-11-27 14:16:41 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 14:16:42 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'jdbcTemplate' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration; factoryMethodName=jdbcTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class]] for bean 'jdbcTemplate': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=jdbcTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/cn/config/client/config/DruidConfig.class]] bound.
+2020-11-27 14:16:42 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-27 14:16:42 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'jdbcTemplate', defined in class path resource [org/springframework/boot/autoconfigure/jdbc/JdbcTemplateConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/cn/config/client/config/DruidConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2020-11-27 14:18:28 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 14:18:29 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=026f3d75-ab39-3e74-bd25-10ac575c4ab7
+2020-11-27 14:18:29 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 14:18:29 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 14:18:29 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 14:18:29 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 14:18:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 832 ms
+2020-11-27 14:18:29 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 14:18:30 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-27 14:18:30 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 14:18:30 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 3.73 seconds (JVM running for 4.14)
+2020-11-27 14:18:30 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 14:18:30 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 14:18:30 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-27 14:18:30 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 14:18:31 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 14:18:33 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=6f4663709c77a005d8689a9d474207c05b923824, state=null
+2020-11-27 14:29:13 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 14:29:13 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 14:29:13 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 14:29:25 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 14:29:25 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=026f3d75-ab39-3e74-bd25-10ac575c4ab7
+2020-11-27 14:29:26 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 14:29:26 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 14:29:26 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 14:29:26 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 14:29:26 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+2020-11-27 14:29:26 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 14:29:26 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-11-27 14:29:26 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 14:29:26 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.667 seconds (JVM running for 5.11)
+2020-11-27 14:29:26 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 14:29:26 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 14:29:26 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-27 14:29:26 [RMI TCP Connection(3)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 14:29:27 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 14:29:28 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=e05c8bab835447d4b5884f84135c263bdd1e2146, state=null
+2020-11-27 14:44:36 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 14:44:36 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 14:44:36 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 15:22:46 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 15:22:47 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-11-27 15:22:47 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-11-27 15:22:47 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=912c80c4-139b-3d3f-8321-34ea44eeb641
+2020-11-27 15:22:47 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-11-27 15:22:47 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-11-27 15:22:47 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-11-27 15:22:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-27 15:22:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-27 15:22:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-27 15:22:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-27 15:22:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-27 15:22:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-27 15:22:47 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 15:22:47 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-27 15:22:47 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 15:22:47 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 15:22:47 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 15:22:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1208 ms
+2020-11-27 15:22:48 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 15:22:48 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-27 15:22:48 [main] INFO  o.s.c.s.f.FunctionConfiguration$FunctionBindingRegistrar - Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-11-27 15:22:48 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 20 endpoint(s) beneath base path '/actuator'
+2020-11-27 15:22:49 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusInput' has 1 subscriber(s).
+2020-11-27 15:22:49 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusInput
+2020-11-27 15:22:49 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel nullChannel
+2020-11-27 15:22:49 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel errorChannel
+2020-11-27 15:22:49 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageChannel springCloudBusOutput
+2020-11-27 15:22:49 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@1511d157
+2020-11-27 15:22:49 [main] INFO  o.s.integration.monitor.IntegrationMBeanExporter - Registering MessageHandler errorLogger
+2020-11-27 15:22:49 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-11-27 15:22:49 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'config-client-1.errorChannel' has 1 subscriber(s).
+2020-11-27 15:22:49 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-11-27 15:22:49 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Creating binder: rabbit
+2020-11-27 15:22:49 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 15:22:50 [main] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=9a3ca68f12ce57c38e3172331947f05eeefa434c, state=null
+2020-11-27 15:22:50 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-27 15:22:50 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Caching the binder: rabbit
+2020-11-27 15:22:50 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-27 15:22:50 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.235:5672]
+2020-11-27 15:23:50 [main] INFO  o.s.c.stream.messaging.DirectWithAttributesChannel - Channel 'config-client-1.springCloudBusOutput' has 1 subscriber(s).
+2020-11-27 15:23:50 [main] INFO  o.s.cloud.stream.binder.DefaultBinderFactory - Retrieving cached binder: rabbit
+2020-11-27 15:23:50 [main] INFO  o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner - declaring queue for inbound: springCloudBus.anonymous.baa19n_dSHS3yE1zu33pbw, bound to: springCloudBus
+2020-11-27 15:23:50 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.235:5672]
+2020-11-27 15:24:50 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [10.244.245.235:5672]
+2020-11-27 15:28:36 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 15:28:36 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=094116b0-e7bf-332e-b295-f655abdf8209
+2020-11-27 15:28:36 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 15:28:36 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 15:28:36 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 15:28:36 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 15:28:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 782 ms
+2020-11-27 15:28:37 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 15:28:37 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-11-27 15:28:37 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 15:28:37 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 3.901 seconds (JVM running for 4.771)
+2020-11-27 15:28:38 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 15:28:38 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 15:28:38 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-27 15:28:38 [RMI TCP Connection(3)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 15:28:38 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 15:28:39 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=9a3ca68f12ce57c38e3172331947f05eeefa434c, state=null
+2020-11-27 15:37:26 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 15:37:26 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 15:37:26 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-27 16:07:58 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-27 16:07:59 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=cd8f386c-db7c-3f5a-9912-ee5c547d0a3a
+2020-11-27 16:07:59 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-27 16:07:59 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-27 16:07:59 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 16:07:59 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-27 16:07:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 859 ms
+2020-11-27 16:07:59 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 16:08:00 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-11-27 16:08:00 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-27 16:08:00 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.526 seconds (JVM running for 4.975)
+2020-11-27 16:08:00 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-27 16:08:00 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-27 16:08:00 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-27 16:08:00 [RMI TCP Connection(3)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-27 16:08:00 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-27 16:08:02 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=88d4e7d3b03dc3e4046b219f32c89bbe32fcc42b, state=null
+2020-11-27 16:13:35 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-27 16:13:35 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-27 16:13:35 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

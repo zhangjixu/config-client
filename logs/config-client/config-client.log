@@ -1,0 +1,452 @@
+2020-11-30 11:02:55 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 11:02:56 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=cd8f386c-db7c-3f5a-9912-ee5c547d0a3a
+2020-11-30 11:02:56 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 11:02:56 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 11:02:56 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 11:02:56 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 11:02:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1145 ms
+2020-11-30 11:02:57 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 11:02:57 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-11-30 11:02:57 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 11:02:58 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 5.012 seconds (JVM running for 5.765)
+2020-11-30 11:02:58 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 11:02:58 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 11:02:58 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-11-30 11:02:58 [RMI TCP Connection(4)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 11:02:58 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 11:03:01 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=9247d7553e1a08564a050a13c1d11ec12dc5e2b8, state=null
+2020-11-30 11:04:29 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 11:04:29 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 11:04:29 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 11:04:37 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 11:04:38 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=cd8f386c-db7c-3f5a-9912-ee5c547d0a3a
+2020-11-30 11:04:38 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 11:04:38 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 11:04:38 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 11:04:38 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 11:04:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 805 ms
+2020-11-30 11:04:38 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 11:04:39 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-11-30 11:04:39 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 11:04:39 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 5.646 seconds (JVM running for 6.295)
+2020-11-30 11:04:39 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 11:04:39 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 11:04:39 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-30 11:04:39 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 11:04:39 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 11:04:41 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=9247d7553e1a08564a050a13c1d11ec12dc5e2b8, state=null
+2020-11-30 11:05:29 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 11:05:29 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 11:05:29 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 13:22:49 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:22:49 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9572f999-f470-357d-9f9a-a5848585b76b
+2020-11-30 13:22:49 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 13:22:49 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 13:22:49 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 13:22:50 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 13:22:50 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 860 ms
+2020-11-30 13:22:50 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 13:22:50 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 13:22:50 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 13:22:50 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.079 seconds (JVM running for 4.512)
+2020-11-30 13:22:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 13:22:51 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 13:22:51 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-30 13:22:51 [RMI TCP Connection(3)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 13:22:51 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:22:53 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=9247d7553e1a08564a050a13c1d11ec12dc5e2b8, state=null
+2020-11-30 13:25:21 [http-nio-8080-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-11-30 13:28:00 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-11-30 13:29:03 [http-nio-8080-exec-8] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:29:05 [http-nio-8080-exec-8] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=b8a32791f1e44e2a43a696fc606d7371d3321780, state=null
+2020-11-30 13:29:05 [http-nio-8080-exec-8] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 13:29:05 [http-nio-8080-exec-8] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:29:05 [http-nio-8080-exec-8] INFO  org.springframework.boot.SpringApplication - Started application in 2.26 seconds (JVM running for 379.217)
+2020-11-30 13:29:05 [http-nio-8080-exec-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 13:29:05 [http-nio-8080-exec-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 13:29:48 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:29:51 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=b8a32791f1e44e2a43a696fc606d7371d3321780, state=null
+2020-11-30 13:29:51 [http-nio-8080-exec-4] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 13:29:51 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:29:51 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - Started application in 2.534 seconds (JVM running for 425.062)
+2020-11-30 13:29:53 [http-nio-8080-exec-5] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:29:56 [http-nio-8080-exec-5] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=b8a32791f1e44e2a43a696fc606d7371d3321780, state=null
+2020-11-30 13:29:56 [http-nio-8080-exec-5] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 13:29:56 [http-nio-8080-exec-5] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:29:56 [http-nio-8080-exec-5] INFO  org.springframework.boot.SpringApplication - Started application in 2.939 seconds (JVM running for 430.441)
+2020-11-30 13:29:57 [http-nio-8080-exec-7] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:29:59 [http-nio-8080-exec-7] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=b8a32791f1e44e2a43a696fc606d7371d3321780, state=null
+2020-11-30 13:29:59 [http-nio-8080-exec-7] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 13:29:59 [http-nio-8080-exec-7] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:29:59 [http-nio-8080-exec-7] INFO  org.springframework.boot.SpringApplication - Started application in 1.462 seconds (JVM running for 432.868)
+2020-11-30 13:30:17 [http-nio-8080-exec-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-11-30 13:31:01 [http-nio-8080-exec-1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:31:04 [http-nio-8080-exec-1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=0a66ec6e3c32bbba2debeb64f450f8c9c0cca2ee, state=null
+2020-11-30 13:31:04 [http-nio-8080-exec-1] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 13:31:05 [http-nio-8080-exec-1] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:31:05 [http-nio-8080-exec-1] INFO  org.springframework.boot.SpringApplication - Started application in 4.836 seconds (JVM running for 499.42)
+2020-11-30 13:31:05 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-11-30 13:31:05 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-11-30 13:31:24 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2020-11-30 13:31:45 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 13:31:45 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2020-11-30 13:31:45 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2020-11-30 13:52:15 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:52:16 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=1cf16cee-cdd3-395d-8796-ce0f30b3f23e
+2020-11-30 13:52:16 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 13:52:16 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 13:52:16 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 13:52:16 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 13:52:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 816 ms
+2020-11-30 13:52:16 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-11-30 13:52:16 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 13:52:17 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 13:52:17 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 13:52:17 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 13:52:17 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.006 seconds (JVM running for 4.837)
+2020-11-30 13:52:17 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 13:52:17 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 13:52:17 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-30 13:52:18 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:52:20 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=e2c29187bbeebb5b3fe4603b8502355f27a76d33, state=null
+2020-11-30 13:52:59 [http-nio-8080-exec-7] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:53:03 [http-nio-8080-exec-7] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=24d395cbaf2b6aaeec2c3d54d8b5725165bdc3b4, state=null
+2020-11-30 13:53:03 [http-nio-8080-exec-7] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 13:53:03 [http-nio-8080-exec-7] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:53:03 [http-nio-8080-exec-7] INFO  org.springframework.boot.SpringApplication - Started application in 3.27 seconds (JVM running for 50.34)
+2020-11-30 13:54:11 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 13:54:11 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 13:54:11 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 13:54:48 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:54:49 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=bf3bfb03-c1c5-30ee-8eea-0122ae17c152
+2020-11-30 13:54:49 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 13:54:49 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 13:54:49 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 13:54:49 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 13:54:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 971 ms
+2020-11-30 13:54:50 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 13:54:50 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 13:54:50 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 13:54:50 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 3.583 seconds (JVM running for 4.692)
+2020-11-30 13:54:50 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 13:54:50 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 13:54:50 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-11-30 13:54:50 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 13:54:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:54:51 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=24d395cbaf2b6aaeec2c3d54d8b5725165bdc3b4, state=null
+2020-11-30 13:55:54 [http-nio-8080-exec-7] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:55:56 [http-nio-8080-exec-7] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=8fbb5028bbc4ebb7a3ea4cca47b9d91fcffd50d3, state=null
+2020-11-30 13:55:56 [http-nio-8080-exec-7] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 13:55:56 [http-nio-8080-exec-7] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:55:56 [http-nio-8080-exec-7] INFO  org.springframework.boot.SpringApplication - Started application in 2.483 seconds (JVM running for 71.084)
+2020-11-30 13:56:17 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 13:56:17 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 13:56:17 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 13:56:59 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:57:00 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=291d7551-582d-3f44-a9d6-c61cc066cd93
+2020-11-30 13:57:00 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 13:57:00 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 13:57:00 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 13:57:00 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 13:57:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 979 ms
+2020-11-30 13:57:01 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-11-30 13:57:01 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 13:57:01 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 13:57:01 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 13:57:01 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 13:57:01 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.529 seconds (JVM running for 5.75)
+2020-11-30 13:57:02 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 13:57:02 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 13:57:02 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-11-30 13:57:02 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:57:03 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=8fbb5028bbc4ebb7a3ea4cca47b9d91fcffd50d3, state=null
+2020-11-30 13:57:58 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:58:04 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=00cb6744ee340235dd316c0c7a202545deed0b50, state=null
+2020-11-30 13:58:04 [http-nio-8080-exec-4] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 13:58:04 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:58:04 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - Started application in 6.322 seconds (JVM running for 68.233)
+2020-11-30 13:58:21 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 13:58:21 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 13:58:21 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 13:58:44 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:58:45 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=291d7551-582d-3f44-a9d6-c61cc066cd93
+2020-11-30 13:58:45 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 13:58:45 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 13:58:45 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 13:58:45 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 13:58:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 765 ms
+2020-11-30 13:58:45 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-11-30 13:58:45 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 13:58:45 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 13:58:46 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 13:58:46 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 13:58:46 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.034 seconds (JVM running for 4.495)
+2020-11-30 13:58:46 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 13:58:46 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 13:58:46 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-30 13:58:46 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:58:48 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=00cb6744ee340235dd316c0c7a202545deed0b50, state=null
+2020-11-30 13:59:25 [http-nio-8080-exec-9] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 13:59:28 [http-nio-8080-exec-9] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=f095d443ac207c3b655309745da82bb574d8f7ac, state=null
+2020-11-30 13:59:28 [http-nio-8080-exec-9] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 13:59:28 [http-nio-8080-exec-9] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 13:59:28 [http-nio-8080-exec-9] INFO  org.springframework.boot.SpringApplication - Started application in 2.886 seconds (JVM running for 46.573)
+2020-11-30 14:00:17 [http-nio-8080-exec-10] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:00:21 [http-nio-8080-exec-10] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=55bc0b43c9b9750b2238079185db0cdac0ea969f, state=null
+2020-11-30 14:00:21 [http-nio-8080-exec-10] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 14:00:22 [http-nio-8080-exec-10] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:00:22 [http-nio-8080-exec-10] INFO  org.springframework.boot.SpringApplication - Started application in 4.417 seconds (JVM running for 100.367)
+2020-11-30 14:01:20 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:01:20 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:01:20 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 14:01:29 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:01:30 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=1685c624-8562-30e3-9ae6-f4cab469e05a
+2020-11-30 14:01:30 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 14:01:30 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 14:01:30 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 14:01:30 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 14:01:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 850 ms
+2020-11-30 14:01:31 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:01:31 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 14:01:31 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 14:01:31 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.021 seconds (JVM running for 5.008)
+2020-11-30 14:01:31 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 14:01:31 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 14:01:31 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-30 14:01:31 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 14:01:31 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:01:33 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=55bc0b43c9b9750b2238079185db0cdac0ea969f, state=null
+2020-11-30 14:02:05 [http-nio-8080-exec-5] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:02:12 [http-nio-8080-exec-5] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=6d4736b9ea06c449a88e0c7cb8892eef45ccf03a, state=null
+2020-11-30 14:02:12 [http-nio-8080-exec-5] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 14:02:12 [http-nio-8080-exec-5] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:02:12 [http-nio-8080-exec-5] INFO  org.springframework.boot.SpringApplication - Started application in 7.619 seconds (JVM running for 46.175)
+2020-11-30 14:02:56 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:02:56 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:02:56 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 14:03:05 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:03:06 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=f5ea1ef8-0003-3555-a03d-d6e142464526
+2020-11-30 14:03:06 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 14:03:06 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 14:03:06 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 14:03:06 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 14:03:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 754 ms
+2020-11-30 14:03:06 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-11-30 14:03:06 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 14:03:06 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:03:07 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 14:03:07 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 14:03:07 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 5.683 seconds (JVM running for 6.136)
+2020-11-30 14:03:07 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 14:03:07 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 14:03:07 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-30 14:03:07 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:03:09 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=6d4736b9ea06c449a88e0c7cb8892eef45ccf03a, state=null
+2020-11-30 14:03:49 [http-nio-8080-exec-3] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:03:53 [http-nio-8080-exec-3] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=3bd64ca5a8fb681fb7ab786df9bcd74301852694, state=null
+2020-11-30 14:03:53 [http-nio-8080-exec-3] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 14:03:53 [http-nio-8080-exec-3] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:03:53 [http-nio-8080-exec-3] INFO  org.springframework.boot.SpringApplication - Started application in 4.243 seconds (JVM running for 52.474)
+2020-11-30 14:04:19 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:04:19 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:04:19 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 14:06:45 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:06:46 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b26a2682-43ee-3acc-af7c-43f7bd8debe6
+2020-11-30 14:06:46 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 14:06:46 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 14:06:46 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 14:06:46 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 14:06:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 835 ms
+2020-11-30 14:06:46 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:06:47 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 14:06:47 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 14:06:47 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.269 seconds (JVM running for 5.235)
+2020-11-30 14:06:47 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 14:06:47 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 14:06:47 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-30 14:06:47 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 14:06:47 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:06:48 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=3bd64ca5a8fb681fb7ab786df9bcd74301852694, state=null
+2020-11-30 14:07:18 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:07:20 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=95769873c50796f229396f9a273ab66693d80452, state=null
+2020-11-30 14:07:20 [http-nio-8080-exec-4] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 14:07:20 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:07:20 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - Started application in 2.573 seconds (JVM running for 39.019)
+2020-11-30 14:07:21 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:07:21 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 14:07:23 [http-nio-8080-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-11-30 14:08:45 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:08:45 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-11-30 14:08:45 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-11-30 14:08:59 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:09:00 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=865f2987-85c8-3153-a3a5-bf9887c16405
+2020-11-30 14:09:00 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 14:09:00 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 14:09:00 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 14:09:00 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 14:09:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 951 ms
+2020-11-30 14:09:01 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:09:01 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 14:09:01 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 14:09:01 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.4 seconds (JVM running for 5.587)
+2020-11-30 14:09:01 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 14:09:01 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 14:09:01 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-11-30 14:09:01 [RMI TCP Connection(1)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 14:09:01 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:09:03 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=95769873c50796f229396f9a273ab66693d80452, state=null
+2020-11-30 14:09:38 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:09:43 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=f8cafd2f359b12ef2088e8127f4e7b7658a39da3, state=null
+2020-11-30 14:09:43 [http-nio-8080-exec-4] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 14:09:43 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:09:43 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - Started application in 4.852 seconds (JVM running for 47.172)
+2020-11-30 14:09:43 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:09:43 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 14:09:45 [http-nio-8080-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-11-30 14:13:27 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:13:27 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-11-30 14:13:27 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-11-30 14:14:05 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:14:05 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=865f2987-85c8-3153-a3a5-bf9887c16405
+2020-11-30 14:14:06 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 14:14:06 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 14:14:06 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 14:14:06 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 14:14:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 848 ms
+2020-11-30 14:14:06 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:14:06 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 14:14:06 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 14:14:06 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.673 seconds (JVM running for 5.474)
+2020-11-30 14:14:07 [RMI TCP Connection(2)-10.244.243.246] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 14:14:07 [RMI TCP Connection(2)-10.244.243.246] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 14:14:07 [RMI TCP Connection(2)-10.244.243.246] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-30 14:14:07 [RMI TCP Connection(1)-10.244.243.246] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 14:14:07 [RMI TCP Connection(1)-10.244.243.246] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:14:11 [RMI TCP Connection(1)-10.244.243.246] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=f8cafd2f359b12ef2088e8127f4e7b7658a39da3, state=null
+2020-11-30 14:15:12 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:15:15 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d40a057b5a438146e8affd9fc299a2654a17726c, state=null
+2020-11-30 14:15:15 [http-nio-8080-exec-4] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 14:15:15 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:15:15 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - Started application in 3.84 seconds (JVM running for 74.52)
+2020-11-30 14:15:16 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:15:16 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 14:15:20 [http-nio-8080-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-11-30 14:21:47 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:21:47 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-11-30 14:21:47 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-11-30 14:22:27 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:22:28 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=865f2987-85c8-3153-a3a5-bf9887c16405
+2020-11-30 14:22:28 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 14:22:28 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 14:22:28 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 14:22:28 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 14:22:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 877 ms
+2020-11-30 14:22:28 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:22:29 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 14:22:29 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 14:22:29 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.585 seconds (JVM running for 5.459)
+2020-11-30 14:22:29 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 14:22:29 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 14:22:29 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-30 14:22:29 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 14:22:30 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:22:33 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=228fc494f582c52835b7e85c5cd68efe9dfc3967, state=null
+2020-11-30 14:25:58 [http-nio-8080-exec-8] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:26:18 [http-nio-8080-exec-8] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=a4d4b5227160c4466f248dbee351565409497c97, state=null
+2020-11-30 14:26:18 [http-nio-8080-exec-8] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 14:26:18 [http-nio-8080-exec-8] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:26:18 [http-nio-8080-exec-8] INFO  org.springframework.boot.SpringApplication - Started application in 19.462 seconds (JVM running for 234.355)
+2020-11-30 14:26:18 [http-nio-8080-exec-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:26:18 [http-nio-8080-exec-8] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 14:26:31 [http-nio-8080-exec-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-11-30 14:26:36 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:26:36 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-11-30 14:26:36 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-11-30 14:36:10 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:36:11 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=865f2987-85c8-3153-a3a5-bf9887c16405
+2020-11-30 14:36:11 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 14:36:11 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 14:36:11 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 14:36:11 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 14:36:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 783 ms
+2020-11-30 14:36:11 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:36:12 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 14:36:12 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 14:36:12 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 3.543 seconds (JVM running for 3.987)
+2020-11-30 14:36:12 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 14:36:12 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 14:36:12 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-30 14:36:12 [RMI TCP Connection(1)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 14:36:13 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:36:14 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=a4d4b5227160c4466f248dbee351565409497c97, state=null
+2020-11-30 14:36:45 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:36:45 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:36:45 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 14:37:34 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:37:34 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=865f2987-85c8-3153-a3a5-bf9887c16405
+2020-11-30 14:37:34 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 14:37:34 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 14:37:34 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 14:37:34 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 14:37:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 764 ms
+2020-11-30 14:37:35 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:37:35 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 14:37:35 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 14:37:35 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 4.296 seconds (JVM running for 5.36)
+2020-11-30 14:37:35 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 14:37:35 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 14:37:35 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-11-30 14:37:35 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 14:37:35 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:37:37 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=a4d4b5227160c4466f248dbee351565409497c97, state=null
+2020-11-30 14:38:24 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:38:27 [http-nio-8080-exec-4] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d0226b8628bcfa7810ddeecdc7bb96d9687b1fe7, state=null
+2020-11-30 14:38:27 [http-nio-8080-exec-4] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/zhangjixu/springboot-config.git/config/config-demo-dev.yml'}]
+2020-11-30 14:38:27 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:38:27 [http-nio-8080-exec-4] INFO  org.springframework.boot.SpringApplication - Started application in 3.151 seconds (JVM running for 57.311)
+2020-11-30 14:38:27 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:38:27 [http-nio-8080-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 14:38:29 [http-nio-8080-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-11-30 14:38:45 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:38:45 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-11-30 14:38:45 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-11-30 14:42:03 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:42:04 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=865f2987-85c8-3153-a3a5-bf9887c16405
+2020-11-30 14:42:04 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 14:42:04 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 14:42:04 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 14:42:04 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 14:42:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 808 ms
+2020-11-30 14:42:04 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:42:05 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 14:42:05 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 14:42:05 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 5.846 seconds (JVM running for 6.704)
+2020-11-30 14:42:05 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 14:42:05 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 14:42:05 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-30 14:42:05 [RMI TCP Connection(5)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 14:42:05 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:42:06 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d0226b8628bcfa7810ddeecdc7bb96d9687b1fe7, state=null
+2020-11-30 14:42:09 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:42:09 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:42:09 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-30 14:59:00 [main] INFO  com.cn.config.client.ConfigClientApplication - No active profile set, falling back to default profiles: default
+2020-11-30 14:59:00 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=865f2987-85c8-3153-a3a5-bf9887c16405
+2020-11-30 14:59:01 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-30 14:59:01 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-30 14:59:01 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-30 14:59:01 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-30 14:59:01 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 784 ms
+2020-11-30 14:59:01 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:59:01 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-11-30 14:59:01 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-30 14:59:01 [main] INFO  com.cn.config.client.ConfigClientApplication - Started ConfigClientApplication in 5.191 seconds (JVM running for 6.054)
+2020-11-30 14:59:02 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 14:59:02 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-30 14:59:02 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-11-30 14:59:02 [RMI TCP Connection(3)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-30 14:59:02 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:3031
+2020-11-30 14:59:04 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.c.client.ConfigServicePropertySourceLocator - Located environment: name=config-demo, profiles=[dev], label=main, version=d0226b8628bcfa7810ddeecdc7bb96d9687b1fe7, state=null
+2020-11-30 14:59:27 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-30 14:59:27 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-11-30 14:59:27 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

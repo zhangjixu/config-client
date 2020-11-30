@@ -1,5 +1,15 @@
+# 日志文件配置
+logging:
+  config: 'classpath:logging-spring.xml'
+
 server:
   port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info # 暴露端点 info health beans env ...
 
 spring:
   application:
@@ -11,8 +21,3 @@ spring:
       uri: http://localhost:3031
       label: main # git 分支
       profile: dev # 环境切分
-
-data:
-  username: NA
-  password: NA
-  url: NA
